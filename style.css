@@ -1,0 +1,279 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*=== LANDING GRADIENT ===*/
+
+.landing {
+  text-align: center;
+  background: rgb(117, 195, 34);
+  background: linear-gradient(
+    42deg,
+    rgba(117, 195, 34, 1) 0%,
+    rgba(253, 242, 45, 1) 100%
+  );
+}
+
+/*=== HEADINGS & ICONS ===*/
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  padding-top: 7rem;
+  text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  padding: 1.8rem 0;
+}
+
+.container .row .text-center .text-dark {
+  font-size: 1.6rem;
+}
+
+.home {
+  padding-bottom: 7rem;
+}
+
+.fa-stack.fa-2x {
+  font-size: 2.3rem;
+}
+
+.fa-stack-2x {
+  opacity: 0.35;
+}
+
+.fa-stack-1x {
+  opacity: 0.7;
+}
+
+.fa-globe-asia {
+  opacity: 1;
+}
+
+/*=== NAVIGATION ===*/
+
+.navbar-brand img {
+  height: 5rem;
+  padding-top: 0.2rem;
+}
+
+.navbar {
+  background: rgb(117, 195, 34);
+  background: linear-gradient(
+    42deg,
+    rgba(117, 195, 34, 1) 0%,
+    rgba(253, 242, 45, 1) 100%
+  );
+  padding: 0.3rem 0rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.12rem;
+  font-size: 1.2rem;
+  text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.15);
+  margin-right: 0.8rem;
+}
+
+.nav-link:hover {
+  border-bottom: 0.05rem solid white;
+}
+
+/*=== CONTENT STYLE ===*/
+
+.fa-asterisk {
+  font-size: 0.6rem;
+  margin-bottom: 0.35rem;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.w-100 {
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+/*=== FIXED BACKGROUND IMG ===*/
+
+.fixed-background {
+  padding: 12rem 0;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.fixed {
+  background-image: url('../img/sj-objio-8hHxO3iYuU0-unsplash.jpg');
+  position: fixed;
+}
+
+/*=== TWO COLUMN LAYOUR TITLE ===*/
+
+h2 {
+  color: white;
+  font-weight: 200;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  padding: 1.6rem 0;
+}
+
+/*=== FOOTER ===*/
+
+footer {
+  background: rgb(117, 195, 34);
+  background: linear-gradient(
+    42deg,
+    rgba(117, 195, 34, 1) 0%,
+    rgba(253, 242, 45, 1) 100%
+  );
+  box-shadow: 0 -0.4rem 0.5rem rgba(0, 0, 0, 0.3);
+  /* padding: 2.5rem 2rem; */
+}
+
+footer img {
+  height: 250px;
+}
+
+footer a,
+footer p,
+.socket a,
+.socket p {
+  color: black;
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+footer a:hover,
+.socket a:hover {
+  color: rgb(118, 0, 187);
+  text-decoration: none;
+}
+
+ul.social {
+  list-style-type: none;
+  display: flex;
+  max-width: 20rem;
+  justify-content: flex-start;
+}
+
+ul.social li {
+  padding: 0 17.5px;
+}
+
+ul.social .svg-inline--fa {
+  font-size: 1.6rem;
+}
+
+ul.social .svg-inline--fa:hover {
+  transform: translateY(-5px);
+  color: black;
+}
+
+footer h3 .border-top {
+  border-top: black;
+}
+
+footer .helpful-links {
+  margin-top: 75px;
+  margin-bottom: 75px
+}
+
+footer .contact-us {
+  margin-top: 75px;
+  margin-bottom: 75px
+}
+
+/*=== SOCKET ===*/
+
+.socket {
+  background: rgb(117, 195, 34);
+  background: linear-gradient(
+    42deg,
+    rgba(117, 195, 34, 1) 0%,
+    rgba(253, 242, 45, 1) 100%
+  );
+  text-align: center;
+  padding: 1rem;
+  border-top: .05rem solid rgb(0, 0, 0);
+}
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+}
+
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+}
+
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row,
+.container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999 !important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
